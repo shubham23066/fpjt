@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Checkout from Git'){
             steps{
-                git branch: 'main', url: 'https://github.com/shubhamojas/Hotstar-DevOps-Project-NodeJS.git'
+                git branch: 'main', url: 'https://github.com/shubham23066/fpjt.git'
             }
         }
         stage('Terraform version'){
